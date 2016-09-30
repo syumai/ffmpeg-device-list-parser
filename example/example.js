@@ -1,5 +1,10 @@
 const { parse } = require('../lib/main.js');
 
-parse().then(
+const options = {
+	ffmpegPath: null
+}
+
+parse(options).then(
 	result => console.log(result)
 );
+
