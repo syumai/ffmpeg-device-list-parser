@@ -1,0 +1,19 @@
+{
+  "name": "ffmpeg-device-list-parser",
+  "version": "0.1.0",
+  "description": "Parser for FFmpeg device list",
+  "main": "lib/main.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syumai/ffmpeg-device-list-parser.git"
+  },
+  "author": "syumai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syumai/ffmpeg-device-list-parser/issues"
+  },
+  "homepage": "https://github.com/syumai/ffmpeg-device-list-parser#readme"
+}
