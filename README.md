@@ -22,6 +22,9 @@ parse(options).then(
 parse(options, 
 	(result) => console.log(result)
 );
+
+// Callback usage without option
+parse((result) => console.log(result));
 ```
 
 ## Output
