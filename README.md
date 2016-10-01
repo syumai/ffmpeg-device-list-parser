@@ -5,6 +5,10 @@
 * Windows (using DirectShow)
 
 ## Usage
+```sh
+npm install ffmpeg-device-list-parser
+```
+
 ```js
 const { parse } = require('ffmpeg-device-list-parser');
 
@@ -57,6 +61,9 @@ parse((result) => console.log(result));
 }
 
 ```
+
+## Author
+syumai
 
 ## License
 MIT
