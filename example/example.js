@@ -1,4 +1,6 @@
-const { parse } = require('../lib/main.js');
+'use strict'
+
+const parse = require('../lib/main.js').parse;
 
 const options = {
 	ffmpegPath: null
